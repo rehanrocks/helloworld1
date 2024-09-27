@@ -1,0 +1,25 @@
+/* General styles for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Styles for the heading */
+h1 {
+    color: #0056b3;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for the paragraph */
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    text-align: justify;
+    color: #555;
+}
