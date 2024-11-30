@@ -141,6 +141,12 @@ header {
     background-color: white;
 }
 
+.css-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
 .snapshot0 {
     width: 295px;
     height: 220px;
@@ -583,7 +589,7 @@ header {
 .nav-bar {
     width: 423px;
     height: 70px;
-    background: #262626;
+    background: white;
 }
 
 .brand {
@@ -591,11 +597,15 @@ header {
     padding-left: 20px;
     line-height: 70px;
     font-size: 1.5em;
+    font-weight: bold;
+
 }
 
 .brand a {
     text-decoration: none;
     color: white;
+    color: blue;
+
 }
 
 .nav-contain {
@@ -650,7 +660,7 @@ nav ul li a {
 #nav-tog span::after {
     position: absolute;
     content: '';
-    background: #fff;
+    background: blue;
     height: 5px;
     width: 35px;
     transition: all 300ms ease-in-out;
